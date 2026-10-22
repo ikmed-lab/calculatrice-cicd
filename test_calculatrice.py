@@ -22,3 +22,6 @@ def test_division():
 def test_division_par_zero():
     with pytest.raises(ValueError):
         division(5, 0)
+
+def test_multiplication():
+    assert multiplication(3, 4) == 12
